@@ -14,7 +14,8 @@
 }
 
 .site-content{
-   flex: 1
+   flex: 1;
+   padding: 10px 0 20px 0;
 }
 li,a {
 	text-decoration: none;
@@ -29,7 +30,7 @@ a:hover {
 
 header, footer {
 	background-color: #2e3f7f;
-	height: 100px;
+	height: 90px;
 	width: 100%;
 }
 
@@ -37,6 +38,33 @@ header, footer {
 	padding: 10px;
 	width: 50px;
 	height: 50px;
+}
+
+.blogs-grid {
+  display: grid;
+  width: 100%;
+  grid-gap: 10px;
+  justify-content: center;
+  grid-template-rows: 250px 250px 250px;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.blog-image {
+	height: 70%;
 }
 
 .social:hover {
