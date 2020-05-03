@@ -1,0 +1,30 @@
+header {
+	background-color: #2a2f4f;
+	height: 50px;
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+nav {
+	margin: 0 135px 0 100px;
+	order: 2;
+	text-align: left;
+}
+
+.nav-items {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 20px;
+	text-decoration: none;
+	text-decoration-color: aliceblue;
+}
+
+.item {
+	padding: 0 0 0 40px;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+}
