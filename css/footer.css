@@ -17,3 +17,9 @@ footer {
 .social-items {
 	display: flex;
 }
+
+@media screen and (max-width:850px) {
+    .social-items {
+        align-self: center;
+    }
+}
